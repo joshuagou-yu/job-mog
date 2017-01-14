@@ -71,6 +71,4 @@ class Admin::JobsController < ApplicationController
     end
   end
 
-
-
 end
