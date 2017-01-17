@@ -45,9 +45,9 @@
             <%= link_to(job_coll_Destroy(job), admin_job_path(job), :method => :delete, :class => "btn btn-xs btn-danger", :data => { :confirm => "Are you sure?" }) %>
             <% if job.is_hidden %>
 
-            <%= link_to(job_coll_publish(job), publish_admin_job_path(job) , :method => :post, :class => "btn btn-xs btn-success") %>
+            <%= link_to(job_coll_see(job), publish_admin_job_path(job) , :method => :post, :class => "btn btn-xs btn-success") %>
         <% else %>
-            <%= link_to(job_coll_Hide(job), hide_admin_job_path(job), :method => :post,  :class => "btn btn-xs btn-warning") %>
+            <%= link_to(job_coll_see(job), hide_admin_job_path(job), :method => :post,  :class => "btn btn-xs btn-warning") %>
             <% end %>
         </td>
         <td>
