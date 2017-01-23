@@ -14,55 +14,60 @@
  *= require_self
  *= require font-awesome
  */
- @import "bootstrap-sprockets";
- @import "bootstrap";
- @import "font-awesome";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
 
- .custab{
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 5px;
-  margin: 5% 0;
-  box-shadow: 3px 3px 2px #ccc;
-  transition: 0.5s;
-  letter-spacing: 5px;
+.custab {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    letter-spacing: 5px;
 }
 
-.custab:hover{
-  box-shadow: 3px 3px 0px transparent;
-  transition: 0.5s;
+.custab:hover {
+    box-shadow: 3px 3px 0 transparent;
+    transition: 0.5s;
 }
 
 .jumbotron {
-  background-image:url('http://y.photo.qq.com/img?s=CkS3IwfkV&l=y.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment:fixed;
-  padding-bottom: 110px;
+    padding-top: 240px;
+    padding-bottom: 540px;
+    line-height: 60px;
+    background-image: url('https://ww1.sinaimg.cn/large/006tNc79gy1fbybrlqysrj30kg0ueac3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content;
+    background-attachment: scroll;
+    background-color: black;
 }
 
 .title {
-  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 80px;
-  letter-spacing: 22px;
-  color: white;
-  line-height: 18px;
+    font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    letter-spacing: 22px;
+    color: white;
+    line-height: 18px;
 }
 
 .slogan {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  text-align: center;
-  color: white;
-  top: 12px;
-  letter-spacing: 7px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    top: 12px;
+    letter-spacing: 7px;
 }
 
 .lead {
-  margin-bottom: 60px;
-  text-align: center;
-  color: white;
-  letter-spacing: 7px;
+    margin-bottom: 350px;
+    text-align: center;
+    color: white;
+    letter-spacing: 7px;
 }
