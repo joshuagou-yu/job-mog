@@ -7,6 +7,11 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
+  def index
+    @posts = current_user.posts
+  end
+
+
   def create
     @group = Group.find(params[:group_id])
     @post = Post.new(post_params)
